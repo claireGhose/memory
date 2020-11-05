@@ -1,10 +1,4 @@
- // créer une page d'accueil avec des différents 2 options : normal memory ou english memory
-// faire des niveaux dans ces deux options (entre 12 et 50 cartes)
-// pour un joueur seul il faudra mettre un chronomètre
-// mettre un jeu avec les images et les mots en anglais à trouvé
-// faire un niveau avec les images contenant les mots en anglais
 
-//<img class= "picture1" src="imgindex.png"></img>
 
 
 
@@ -54,6 +48,27 @@ const c18 = document.getElementById(arrayShuffle[17])
 const c19 = document.getElementById(arrayShuffle[18])
 const c20 = document.getElementById(arrayShuffle[19])
 
+// const c1 = document.getElementById("c1")
+// const c2 = document.getElementById("c2")
+// const c3 = document.getElementById("c3")
+// const c4 = document.getElementById("c4")
+// const c5 = document.getElementById("c5")
+// const c6 = document.getElementById("c6")
+// const c7 = document.getElementById("c7")
+// const c8 = document.getElementById("c8")
+// const c9 = document.getElementById("c9")
+// const c10 = document.getElementById("c10")
+// const c11 = document.getElementById("c11")
+// const c12 = document.getElementById("c12")
+// const c13 = document.getElementById("c13")
+// const c14 = document.getElementById("c14")
+// const c15 = document.getElementById("c15")
+// const c16 = document.getElementById("c16")
+// const c17 = document.getElementById("c17")
+// const c18 = document.getElementById("c18")
+// const c19 = document.getElementById("c19")
+// const c20 = document.getElementById("c20")
+
 console.log(c2)
 console.log(c9)
 
@@ -78,7 +93,7 @@ c1.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c1.src = "imageDosCarte/DosCarte.jpg"
-        }, 900);
+        }, 500);
     } else {
         retounerCarte(c1, "carte1", c1)
         retounerCarte(c2, "carte2", c1)
@@ -124,7 +139,7 @@ c15.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c15.src = "imageDosCarte/DosCarte.jpg"
-        }, 900);
+        }, 500);
     } else {
         retounerCarte(c1, "carte1", c15)
         retounerCarte(c2, "carte2", c15)
@@ -171,7 +186,7 @@ c2.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c2.src = "imageDosCarte/DosCarte.jpg"
-        }, 900);
+        }, 500);
     } else {
         retounerCarte(c1, "carte1", c2)
         retounerCarte(c2, "carte2", c2)
@@ -217,7 +232,7 @@ c9.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c9.src = "imageDosCarte/DosCarte.jpg"
-        }, 900);
+        }, 500);
     } else {
         retounerCarte(c1, "carte1", c9)
         retounerCarte(c2, "carte2", c9)
@@ -265,7 +280,7 @@ c3.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c3.src = "imageDosCarte/DosCarte.jpg"
-        }, 900);
+        }, 500);
     } else {
         retounerCarte(c1, "carte1", c3)
         retounerCarte(c2, "carte2", c3)
@@ -313,7 +328,7 @@ c14.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c14.src = "imageDosCarte/DosCarte.jpg"
-        }, 900);
+        }, 500);
     } else {
         retounerCarte(c1, "carte1", c14)
         retounerCarte(c2, "carte2", c14)
@@ -329,7 +344,7 @@ c14.addEventListener("click",function (event){
         retounerCarte(c12, "carte12", c14)
         retounerCarte(c13, "carte13", c14)
         retounerCarte(c14, "carte14", c14)
-        retounerCarte(c15, "carte615", c14)
+        retounerCarte(c15, "carte15", c14)
         retounerCarte(c16, "carte16", c14)
         retounerCarte(c17, "carte17", c14)
         retounerCarte(c18, "carte18", c14)
@@ -363,7 +378,7 @@ c4.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c4.src = "imageDosCarte/DosCarte.jpg"
-        }, 900);
+        }, 500);
     } else {
         retounerCarte(c1, "carte1", c4)
         retounerCarte(c2, "carte2", c4)
@@ -411,7 +426,7 @@ c19.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c19.src = "imageDosCarte/DosCarte.jpg"
-        }, 900);
+        }, 500);
     } else {
         retounerCarte(c1, "carte1", c19)
         retounerCarte(c2, "carte2", c19)
@@ -461,7 +476,7 @@ c5.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c5.src = "imageDosCarte/DosCarte.jpg"
-        }, 900);
+        }, 500);
     } else {
         retounerCarte(c1, "carte1", c5)
         retounerCarte(c2, "carte2", c5)
@@ -509,7 +524,7 @@ c18.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c18.src = "imageDosCarte/DosCarte.jpg"
-        }, 900);
+        }, 500);
     } else {
         retounerCarte(c1, "carte1", c18)
         retounerCarte(c2, "carte2", c18)
@@ -559,7 +574,7 @@ c6.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c6.src = "imageDosCarte/DosCarte.jpg"
-        }, 900);
+        }, 500);
     } else {
         retounerCarte(c1, "carte1", c6)
         retounerCarte(c2, "carte2", c6)
@@ -607,7 +622,7 @@ c8.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c8.src = "imageDosCarte/DosCarte.jpg"
-        }, 900);
+        }, 500);
     } else {
         retounerCarte(c1, "carte1", c8)
         retounerCarte(c2, "carte2", c8)
@@ -657,7 +672,7 @@ c7.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c7.src = "imageDosCarte/DosCarte.jpg"
-        }, 900);
+        }, 500);
     } else {
         retounerCarte(c1, "carte1", c7)
         retounerCarte(c2, "carte2", c7)
@@ -705,7 +720,7 @@ c13.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c13.src = "imageDosCarte/DosCarte.jpg"
-        }, 900);
+        }, 500);
     } else {
         retounerCarte(c1, "carte1", c13)
         retounerCarte(c2, "carte2", c13)
@@ -755,7 +770,7 @@ c10.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c10.src = "imageDosCarte/DosCarte.jpg"
-        }, 900);
+        }, 500);
     } else {
         retounerCarte(c1, "carte1", c10)
         retounerCarte(c2, "carte2", c10)
@@ -803,7 +818,7 @@ c16.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c16.src = "imageDosCarte/DosCarte.jpg"
-        }, 900);
+        }, 500);
     } else {
         retounerCarte(c1, "carte1", c16)
         retounerCarte(c2, "carte2", c16)
@@ -853,7 +868,7 @@ c11.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c11.src = "imageDosCarte/DosCarte.jpg"
-        }, 900);
+        }, 500);
     } else {
         retounerCarte(c1, "carte1", c11)
         retounerCarte(c2, "carte2", c11)
@@ -901,7 +916,7 @@ c20.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c20.src = "imageDosCarte/DosCarte.jpg"
-        }, 900);
+        }, 500);
     } else {
         retounerCarte(c1, "carte1", c20)
         retounerCarte(c2, "carte2", c20)
@@ -951,7 +966,7 @@ c12.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c12.src = "imageDosCarte/DosCarte.jpg"
-        }, 900);
+        }, 500);
     } else {
         retounerCarte(c1, "carte1", c12)
         retounerCarte(c2, "carte2", c12)
@@ -999,7 +1014,7 @@ c17.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c17.src = "imageDosCarte/DosCarte.jpg"
-        }, 900);
+        }, 500);
     } else {
         retounerCarte(c1, "carte1", c17)
         retounerCarte(c2, "carte2", c17)
@@ -1037,8 +1052,6 @@ c17.addEventListener("click",function (event){
 
 // retourner les cartes qd ce ne sont pas les mêmes
 function retounerCarte(carteDOM, carteNuméro, carteDOM2){
-    console.log("dernier click:", dernierClick)
-
     if (carteDOM2 == carteDOM){
         //fait rien car on a juste cliqué 1 fois
     } else if (dernierClick == carteNuméro){
@@ -1049,7 +1062,7 @@ function retounerCarte(carteDOM, carteNuméro, carteDOM2){
         setTimeout(function() {
             carteDOM.src = "imageDosCarte/DosCarte.jpg"
             carteDOM2.src = "imageDosCarte/DosCarte.jpg"
-        }, 1600);
+        }, 1000);
     }  
 }
 
