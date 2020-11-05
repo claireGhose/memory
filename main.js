@@ -57,7 +57,13 @@ c1.addEventListener("click",function (event){
         if (gagnepoint == 10){
             confetti.start()
         }
-
+    } else if (dernierClick== "carte1"){
+        
+        const player = new Audio('musique/flipcard.wav');
+        player.play()
+        setTimeout(function() {
+            c1.src = "imageDosCarte/DosCarte.jpg"
+        }, 1000);
     } else {
         retounerCarte(c1, "carte1", c1)
         retounerCarte(c2, "carte2", c1)
@@ -97,6 +103,13 @@ c15.addEventListener("click",function (event){
         if (gagnepoint == 10){
             confetti.start()
         }
+    } else if (dernierClick== "carte15"){
+        
+        const player = new Audio('musique/flipcard.wav');
+        player.play()
+        setTimeout(function() {
+            c15.src = "imageDosCarte/DosCarte.jpg"
+        }, 1000);
     } else {
         retounerCarte(c1, "carte1", c15)
         retounerCarte(c2, "carte2", c15)
@@ -137,6 +150,13 @@ c2.addEventListener("click",function (event){
         if (gagnepoint == 10){
             confetti.start()
         }
+    } else if (dernierClick== "carte2"){
+        
+        const player = new Audio('musique/flipcard.wav');
+        player.play()
+        setTimeout(function() {
+            c2.src = "imageDosCarte/DosCarte.jpg"
+        }, 1000);
     } else {
         retounerCarte(c1, "carte1", c2)
         retounerCarte(c2, "carte2", c2)
@@ -176,6 +196,13 @@ c9.addEventListener("click",function (event){
         if (gagnepoint == 10){
             confetti.start()
         }
+    } else if (dernierClick== "carte9"){
+        
+        const player = new Audio('musique/flipcard.wav');
+        player.play()
+        setTimeout(function() {
+            c9.src = "imageDosCarte/DosCarte.jpg"
+        }, 1000);
     } else {
         retounerCarte(c1, "carte1", c9)
         retounerCarte(c2, "carte2", c9)
@@ -217,6 +244,13 @@ c3.addEventListener("click",function (event){
         if (gagnepoint == 10){
             confetti.start()
         }
+    } else if (dernierClick== "carte3"){
+        
+        const player = new Audio('musique/flipcard.wav');
+        player.play()
+        setTimeout(function() {
+            c3.src = "imageDosCarte/DosCarte.jpg"
+        }, 1000);
     } else {
         retounerCarte(c1, "carte1", c3)
         retounerCarte(c2, "carte2", c3)
@@ -258,6 +292,13 @@ c14.addEventListener("click",function (event){
             const player = new Audio('musique/finalwin.wav');
             player.play()
         }
+    } else if (dernierClick== "carte14"){
+        
+        const player = new Audio('musique/flipcard.wav');
+        player.play()
+        setTimeout(function() {
+            c14.src = "imageDosCarte/DosCarte.jpg"
+        }, 1000);
     } else {
         retounerCarte(c1, "carte1", c14)
         retounerCarte(c2, "carte2", c14)
@@ -301,6 +342,13 @@ c4.addEventListener("click",function (event){
             const player = new Audio('musique/finalwin.wav');
             player.play()
         }
+    } else if (dernierClick== "carte4"){
+        
+        const player = new Audio('musique/flipcard.wav');
+        player.play()
+        setTimeout(function() {
+            c4.src = "imageDosCarte/DosCarte.jpg"
+        }, 1000);
     } else {
         retounerCarte(c1, "carte1", c4)
         retounerCarte(c2, "carte2", c4)
@@ -342,6 +390,13 @@ c19.addEventListener("click",function (event){
             const player = new Audio('musique/finalwin.wav');
             player.play()
         }
+    } else if (dernierClick== "carte19"){
+        
+        const player = new Audio('musique/flipcard.wav');
+        player.play()
+        setTimeout(function() {
+            c19.src = "imageDosCarte/DosCarte.jpg"
+        }, 1000);
     } else {
         retounerCarte(c1, "carte1", c19)
         retounerCarte(c2, "carte2", c19)
@@ -385,6 +440,13 @@ c5.addEventListener("click",function (event){
             const player = new Audio('musique/finalwin.wav');
             player.play()
         }
+    } else if (dernierClick== "carte5"){
+        
+        const player = new Audio('musique/flipcard.wav');
+        player.play()
+        setTimeout(function() {
+            c5.src = "imageDosCarte/DosCarte.jpg"
+        }, 1000);
     } else {
         retounerCarte(c1, "carte1", c5)
         retounerCarte(c2, "carte2", c5)
@@ -426,6 +488,13 @@ c18.addEventListener("click",function (event){
             const player = new Audio('musique/finalwin.wav');
             player.play()
         }
+    } else if (dernierClick== "carte18"){
+        
+        const player = new Audio('musique/flipcard.wav');
+        player.play()
+        setTimeout(function() {
+            c18.src = "imageDosCarte/DosCarte.jpg"
+        }, 1000);
     } else {
         retounerCarte(c1, "carte1", c18)
         retounerCarte(c2, "carte2", c18)
@@ -469,6 +538,13 @@ c6.addEventListener("click",function (event){
             const player = new Audio('musique/finalwin.wav');
             player.play()
         }
+    } else if (dernierClick== "carte6"){
+        
+        const player = new Audio('musique/flipcard.wav');
+        player.play()
+        setTimeout(function() {
+            c6.src = "imageDosCarte/DosCarte.jpg"
+        }, 1000);
     } else {
         retounerCarte(c1, "carte1", c6)
         retounerCarte(c2, "carte2", c6)
@@ -510,6 +586,13 @@ c8.addEventListener("click",function (event){
             const player = new Audio('musique/finalwin.wav');
             player.play()
         }
+    } else if (dernierClick== "carte8"){
+        
+        const player = new Audio('musique/flipcard.wav');
+        player.play()
+        setTimeout(function() {
+            c8.src = "imageDosCarte/DosCarte.jpg"
+        }, 1000);
     } else {
         retounerCarte(c1, "carte1", c8)
         retounerCarte(c2, "carte2", c8)
@@ -553,6 +636,13 @@ c7.addEventListener("click",function (event){
             const player = new Audio('musique/finalwin.wav');
             player.play()
         }
+    } else if (dernierClick== "carte7"){
+        
+        const player = new Audio('musique/flipcard.wav');
+        player.play()
+        setTimeout(function() {
+            c7.src = "imageDosCarte/DosCarte.jpg"
+        }, 1000);
     } else {
         retounerCarte(c1, "carte1", c7)
         retounerCarte(c2, "carte2", c7)
@@ -594,6 +684,13 @@ c13.addEventListener("click",function (event){
             const player = new Audio('musique/finalwin.wav');
             player.play()
         }
+    } else if (dernierClick== "carte13"){
+        
+        const player = new Audio('musique/flipcard.wav');
+        player.play()
+        setTimeout(function() {
+            c13.src = "imageDosCarte/DosCarte.jpg"
+        }, 1000);
     } else {
         retounerCarte(c1, "carte1", c13)
         retounerCarte(c2, "carte2", c13)
@@ -637,6 +734,13 @@ c10.addEventListener("click",function (event){
             const player = new Audio('musique/finalwin.wav');
             player.play()
         }
+    } else if (dernierClick== "carte10"){
+        
+        const player = new Audio('musique/flipcard.wav');
+        player.play()
+        setTimeout(function() {
+            c10.src = "imageDosCarte/DosCarte.jpg"
+        }, 1000);
     } else {
         retounerCarte(c1, "carte1", c10)
         retounerCarte(c2, "carte2", c10)
@@ -678,6 +782,13 @@ c16.addEventListener("click",function (event){
             const player = new Audio('musique/finalwin.wav');
             player.play()
         }
+    } else if (dernierClick== "carte16"){
+        
+        const player = new Audio('musique/flipcard.wav');
+        player.play()
+        setTimeout(function() {
+            c16.src = "imageDosCarte/DosCarte.jpg"
+        }, 1000);
     } else {
         retounerCarte(c1, "carte1", c16)
         retounerCarte(c2, "carte2", c16)
@@ -721,6 +832,13 @@ c11.addEventListener("click",function (event){
             const player = new Audio('musique/finalwin.wav');
             player.play()
         }
+    } else if (dernierClick== "carte11"){
+        
+        const player = new Audio('musique/flipcard.wav');
+        player.play()
+        setTimeout(function() {
+            c11.src = "imageDosCarte/DosCarte.jpg"
+        }, 1000);
     } else {
         retounerCarte(c1, "carte1", c11)
         retounerCarte(c2, "carte2", c11)
@@ -762,6 +880,13 @@ c20.addEventListener("click",function (event){
             const player = new Audio('musique/finalwin.wav');
             player.play()
         }
+    } else if (dernierClick== "carte20"){
+        
+        const player = new Audio('musique/flipcard.wav');
+        player.play()
+        setTimeout(function() {
+            c20.src = "imageDosCarte/DosCarte.jpg"
+        }, 1000);
     } else {
         retounerCarte(c1, "carte1", c20)
         retounerCarte(c2, "carte2", c20)
@@ -805,6 +930,13 @@ c12.addEventListener("click",function (event){
             const player = new Audio('musique/finalwin.wav');
             player.play()
         }
+    } else if (dernierClick== "carte12"){
+        
+        const player = new Audio('musique/flipcard.wav');
+        player.play()
+        setTimeout(function() {
+            c12.src = "imageDosCarte/DosCarte.jpg"
+        }, 1000);
     } else {
         retounerCarte(c1, "carte1", c12)
         retounerCarte(c2, "carte2", c12)
@@ -846,6 +978,13 @@ c17.addEventListener("click",function (event){
             const player = new Audio('musique/finalwin.wav');
             player.play()
         }
+    } else if (dernierClick== "carte17"){
+        
+        const player = new Audio('musique/flipcard.wav');
+        player.play()
+        setTimeout(function() {
+            c17.src = "imageDosCarte/DosCarte.jpg"
+        }, 1000);
     } else {
         retounerCarte(c1, "carte1", c17)
         retounerCarte(c2, "carte2", c17)
@@ -886,7 +1025,7 @@ function retounerCarte(carteDOM, carteNuméro, carteDOM2){
     console.log("dernier click:", dernierClick)
 
     if (carteDOM2 == carteDOM){
-        //fait rien car deux fois clq sur meme carte
+        //fait rien car on a juste cliqué 1 fois
     } else if (dernierClick == carteNuméro){
         // on a echoué:
         console.log("on va retouner les 2 cartes", carteDOM, carteDOM2)
