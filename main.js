@@ -15,6 +15,8 @@ let ResetBtn= document.getElementById("reset")
 
 let dernierClick= ""
 
+let gagnepoint= 0
+
 
 
 
@@ -45,8 +47,17 @@ const c20 = document.getElementById("c20")
 //image1
 c1.addEventListener("click",function (event){
     c1.src="carte/1.jpg"
+    const player = new Audio('musique/flipcard.wav');
+    player.play()
+
     if (dernierClick == "carte15"){
-        //happysong
+        const player = new Audio('musique/winmatch.wav');
+        player.play()
+        gagnepoint +=1
+        if (gagnepoint == 10){
+            confetti.start()
+        }
+
     } else {
         retounerCarte(c1, "carte1", c1)
         retounerCarte(c2, "carte2", c1)
@@ -69,12 +80,23 @@ c1.addEventListener("click",function (event){
         retounerCarte(c19, "carte19", c1)
         retounerCarte(c20, "carte20", c1)        
     }
-    dernierClick="carte1"
+    if (dernierClick) {
+        dernierClick = ""
+    } else {
+        dernierClick="carte1"
+    }
 })
 c15.addEventListener("click",function (event){
     c15.src="carte/1.jpg"
+    const player = new Audio('musique/flipcard.wav');
+    player.play()
     if (dernierClick == "carte1"){
-        //happysong
+        const player = new Audio('musique/winmatch.wav');
+        player.play()
+        gagnepoint +=1
+        if (gagnepoint == 10){
+            confetti.start()
+        }
     } else {
         retounerCarte(c1, "carte1", c15)
         retounerCarte(c2, "carte2", c15)
@@ -97,13 +119,24 @@ c15.addEventListener("click",function (event){
         retounerCarte(c19, "carte19", c15)
         retounerCarte(c20, "carte20", c15)        
     }
-    dernierClick="carte15"
+    if (dernierClick) {
+        dernierClick = ""
+    } else {
+        dernierClick="carte15"
+    }
 })
 //image2
 c2.addEventListener("click",function (event){
     c2.src=("carte/2.jpg")
+    const player = new Audio('musique/flipcard.wav');
+    player.play()
     if (dernierClick == "carte9"){
-        //happysong
+        const player = new Audio('musique/winmatch.wav');
+        player.play()
+        gagnepoint +=1
+        if (gagnepoint == 10){
+            confetti.start()
+        }
     } else {
         retounerCarte(c1, "carte1", c2)
         retounerCarte(c2, "carte2", c2)
@@ -126,12 +159,23 @@ c2.addEventListener("click",function (event){
         retounerCarte(c19, "carte19", c2)
         retounerCarte(c20, "carte20", c2)        
     }
-    dernierClick="carte2"
+    if (dernierClick) {
+        dernierClick = ""
+    } else {
+        dernierClick="carte2"
+    }
 })
 c9.addEventListener("click",function (event){
     c9.src=("carte/2.jpg")
+    const player = new Audio('musique/flipcard.wav');
+    player.play()
     if (dernierClick == "carte2"){
-        //happysong
+        const player = new Audio('musique/winmatch.wav');
+        player.play()
+        gagnepoint +=1
+        if (gagnepoint == 10){
+            confetti.start()
+        }
     } else {
         retounerCarte(c1, "carte1", c9)
         retounerCarte(c2, "carte2", c9)
@@ -154,14 +198,25 @@ c9.addEventListener("click",function (event){
         retounerCarte(c19, "carte19", c9)
         retounerCarte(c20, "carte20", c9)        
     }
-    dernierClick="carte9"
+    if (dernierClick) {
+        dernierClick = ""
+    } else {
+        dernierClick="carte9"
+    }
 })
 
 //image3
 c3.addEventListener("click",function (event){
     c3.src=("carte/3.jpg")
+    const player = new Audio('musique/flipcard.wav');
+    player.play()
     if (dernierClick == "carte14"){
-        //happysong
+        const player = new Audio('musique/winmatch.wav');
+        player.play()
+        gagnepoint +=1
+        if (gagnepoint == 10){
+            confetti.start()
+        }
     } else {
         retounerCarte(c1, "carte1", c3)
         retounerCarte(c2, "carte2", c3)
@@ -184,12 +239,25 @@ c3.addEventListener("click",function (event){
         retounerCarte(c19, "carte19", c3)
         retounerCarte(c20, "carte20", c3)        
     }
-    dernierClick="carte3"
+    if (dernierClick) {
+        dernierClick = ""
+    } else {
+        dernierClick="carte3"
+    }
 })
 c14.addEventListener("click",function (event){
     c14.src=("carte/3.jpg")
+    const player = new Audio('musique/flipcard.wav');
+    player.play()
     if (dernierClick == "carte3"){
-        //happysong
+        const player = new Audio('musique/winmatch.wav');
+        player.play()
+        gagnepoint +=1
+        if (gagnepoint == 10){
+            confetti.start()
+            const player = new Audio('musique/finalwin.wav');
+            player.play()
+        }
     } else {
         retounerCarte(c1, "carte1", c14)
         retounerCarte(c2, "carte2", c14)
@@ -212,14 +280,27 @@ c14.addEventListener("click",function (event){
         retounerCarte(c19, "carte19", c14)
         retounerCarte(c20, "carte20", c14)        
     }
-    dernierClick="carte14"
+    if (dernierClick) {
+        dernierClick = ""
+    } else {
+        dernierClick="carte14"
+    }
 })
 
 //image4
 c4.addEventListener("click",function (event){
     c4.src=("carte/4.jpg")
+    const player = new Audio('musique/flipcard.wav');
+    player.play()
     if (dernierClick == "carte19"){
-        //happysong
+        const player = new Audio('musique/winmatch.wav');
+        player.play()
+        gagnepoint +=1
+        if (gagnepoint == 10){
+            confetti.start()
+            const player = new Audio('musique/finalwin.wav');
+            player.play()
+        }
     } else {
         retounerCarte(c1, "carte1", c4)
         retounerCarte(c2, "carte2", c4)
@@ -242,12 +323,25 @@ c4.addEventListener("click",function (event){
         retounerCarte(c19, "carte19", c4)
         retounerCarte(c20, "carte20", c4)        
     }
-    dernierClick="carte4"
+    if (dernierClick) {
+        dernierClick = ""
+    } else {
+        dernierClick="carte4"
+    }
 })
 c19.addEventListener("click",function (event){
     c19.src=("carte/4.jpg")
+    const player = new Audio('musique/flipcard.wav');
+    player.play()
     if (dernierClick == "carte4"){
-        //happysong
+        const player = new Audio('musique/winmatch.wav');
+        player.play()
+        gagnepoint +=1
+        if (gagnepoint == 10){
+            confetti.start()
+            const player = new Audio('musique/finalwin.wav');
+            player.play()
+        }
     } else {
         retounerCarte(c1, "carte1", c19)
         retounerCarte(c2, "carte2", c19)
@@ -270,14 +364,27 @@ c19.addEventListener("click",function (event){
         retounerCarte(c19, "carte19", c19)
         retounerCarte(c20, "carte20", c19)        
     }
-    dernierClick="carte19"
+    if (dernierClick) {
+        dernierClick = ""
+    } else {
+        dernierClick="carte19"
+    }
 })
 
 //image5
 c5.addEventListener("click",function (event){
     c5.src=("carte/5.jpg")
+    const player = new Audio('musique/flipcard.wav');
+    player.play()
     if (dernierClick == "carte18"){
-        //happysong
+        const player = new Audio('musique/winmatch.wav');
+        player.play()
+        gagnepoint +=1
+        if (gagnepoint == 10){
+            confetti.start()
+            const player = new Audio('musique/finalwin.wav');
+            player.play()
+        }
     } else {
         retounerCarte(c1, "carte1", c5)
         retounerCarte(c2, "carte2", c5)
@@ -300,12 +407,25 @@ c5.addEventListener("click",function (event){
         retounerCarte(c19, "carte19", c5)
         retounerCarte(c20, "carte20", c5)        
     }
-    dernierClick="carte5"
+    if (dernierClick) {
+        dernierClick = ""
+    } else {
+        dernierClick="carte5"
+    }
 })
 c18.addEventListener("click",function (event){
     c18.src=("carte/5.jpg")
+    const player = new Audio('musique/flipcard.wav');
+    player.play()
     if (dernierClick == "carte5"){
-        //happysong
+        const player = new Audio('musique/winmatch.wav');
+        player.play()
+        gagnepoint +=1
+        if (gagnepoint == 10){
+            confetti.start()
+            const player = new Audio('musique/finalwin.wav');
+            player.play()
+        }
     } else {
         retounerCarte(c1, "carte1", c18)
         retounerCarte(c2, "carte2", c18)
@@ -328,14 +448,27 @@ c18.addEventListener("click",function (event){
         retounerCarte(c19, "carte19", c18)
         retounerCarte(c20, "carte20", c18)        
     }
-    dernierClick="carte18"
+    if (dernierClick) {
+        dernierClick = ""
+    } else {
+        dernierClick="carte18"
+    }
 })
 
 //image6
 c6.addEventListener("click",function (event){
     c6.src=("carte/6.jpg")
+    const player = new Audio('musique/flipcard.wav');
+    player.play()
     if (dernierClick == "carte8"){
-        //happysong
+        const player = new Audio('musique/winmatch.wav');
+        player.play()
+        gagnepoint +=1
+        if (gagnepoint == 10){
+            confetti.start()
+            const player = new Audio('musique/finalwin.wav');
+            player.play()
+        }
     } else {
         retounerCarte(c1, "carte1", c6)
         retounerCarte(c2, "carte2", c6)
@@ -358,12 +491,25 @@ c6.addEventListener("click",function (event){
         retounerCarte(c19, "carte19", c6)
         retounerCarte(c20, "carte20", c6)        
     }
-    dernierClick="carte6"
+    if (dernierClick) {
+        dernierClick = ""
+    } else {
+        dernierClick="carte6"
+    }
 })
 c8.addEventListener("click",function (event){
     c8.src=("carte/6.jpg")
+    const player = new Audio('musique/flipcard.wav');
+    player.play()
     if (dernierClick == "carte6"){
-        //happysong
+        const player = new Audio('musique/winmatch.wav');
+        player.play()
+        gagnepoint +=1
+        if (gagnepoint == 10){
+            confetti.start()
+            const player = new Audio('musique/finalwin.wav');
+            player.play()
+        }
     } else {
         retounerCarte(c1, "carte1", c8)
         retounerCarte(c2, "carte2", c8)
@@ -386,14 +532,27 @@ c8.addEventListener("click",function (event){
         retounerCarte(c19, "carte19", c8)
         retounerCarte(c20, "carte20", c8)        
     }
-    dernierClick="carte8"
+    if (dernierClick) {
+        dernierClick = ""
+    } else {
+        dernierClick="carte8"
+    }
 })
 
 //image7
 c7.addEventListener("click",function (event){
     c7.src=("carte/7.jpg")
+    const player = new Audio('musique/flipcard.wav');
+    player.play()
     if (dernierClick == "carte13"){
-        //happysong
+        const player = new Audio('musique/winmatch.wav');
+        player.play()
+        gagnepoint +=1
+        if (gagnepoint == 10){
+            confetti.start()
+            const player = new Audio('musique/finalwin.wav');
+            player.play()
+        }
     } else {
         retounerCarte(c1, "carte1", c7)
         retounerCarte(c2, "carte2", c7)
@@ -416,12 +575,25 @@ c7.addEventListener("click",function (event){
         retounerCarte(c19, "carte19", c7)
         retounerCarte(c20, "carte20", c7)        
     }
-    dernierClick="carte7"
+    if (dernierClick) {
+        dernierClick = ""
+    } else {
+        dernierClick="carte7"
+    }
 })
 c13.addEventListener("click",function (event){
     c13.src=("carte/7.jpg")
+    const player = new Audio('musique/flipcard.wav');
+    player.play()
     if (dernierClick == "carte7"){
-        //happysong
+        const player = new Audio('musique/winmatch.wav');
+        player.play()
+        gagnepoint +=1
+        if (gagnepoint == 10){
+            confetti.start()
+            const player = new Audio('musique/finalwin.wav');
+            player.play()
+        }
     } else {
         retounerCarte(c1, "carte1", c13)
         retounerCarte(c2, "carte2", c13)
@@ -444,14 +616,27 @@ c13.addEventListener("click",function (event){
         retounerCarte(c19, "carte19", c13)
         retounerCarte(c20, "carte20", c13)        
     }
-    dernierClick="carte13"
+    if (dernierClick) {
+        dernierClick = ""
+    } else {
+        dernierClick="carte13"
+    }
 })
 
 //image8
 c10.addEventListener("click",function (event){
     c10.src=("carte/8.jpg")
+    const player = new Audio('musique/flipcard.wav');
+    player.play()
     if (dernierClick == "carte16"){
-        //happysong
+        const player = new Audio('musique/winmatch.wav');
+        player.play()
+        gagnepoint +=1
+        if (gagnepoint == 10){
+            confetti.start()
+            const player = new Audio('musique/finalwin.wav');
+            player.play()
+        }
     } else {
         retounerCarte(c1, "carte1", c10)
         retounerCarte(c2, "carte2", c10)
@@ -474,12 +659,25 @@ c10.addEventListener("click",function (event){
         retounerCarte(c19, "carte19", c10)
         retounerCarte(c20, "carte20", c10)        
     }
-    dernierClick="carte10"
+    if (dernierClick) {
+        dernierClick = ""
+    } else {
+        dernierClick="carte10"
+    }
 })
 c16.addEventListener("click",function (event){
     c16.src=("carte/8.jpg")
+    const player = new Audio('musique/flipcard.wav');
+    player.play()
     if (dernierClick == "carte10"){
-        //happysong
+        const player = new Audio('musique/winmatch.wav');
+        player.play()
+        gagnepoint +=1
+        if (gagnepoint == 10){
+            confetti.start()
+            const player = new Audio('musique/finalwin.wav');
+            player.play()
+        }
     } else {
         retounerCarte(c1, "carte1", c16)
         retounerCarte(c2, "carte2", c16)
@@ -502,14 +700,27 @@ c16.addEventListener("click",function (event){
         retounerCarte(c19, "carte19", c16)
         retounerCarte(c20, "carte20", c16)        
     }
-    dernierClick="carte16"
+    if (dernierClick) {
+        dernierClick = ""
+    } else {
+        dernierClick="carte16"
+    }
 })
 
 //image9
 c11.addEventListener("click",function (event){
     c11.src=("carte/9.jpg")
+    const player = new Audio('musique/flipcard.wav');
+    player.play()
     if (dernierClick == "carte20"){
-        //happysong
+        const player = new Audio('musique/winmatch.wav');
+        player.play()
+        gagnepoint +=1
+        if (gagnepoint == 10){
+            confetti.start()
+            const player = new Audio('musique/finalwin.wav');
+            player.play()
+        }
     } else {
         retounerCarte(c1, "carte1", c11)
         retounerCarte(c2, "carte2", c11)
@@ -532,12 +743,25 @@ c11.addEventListener("click",function (event){
         retounerCarte(c19, "carte19", c11)
         retounerCarte(c20, "carte20", c11)        
     }
-    dernierClick="carte9"
+    if (dernierClick) {
+        dernierClick = ""
+    } else {
+        dernierClick="carte9"
+    }
 })
 c20.addEventListener("click",function (event){
     c20.src=("carte/9.jpg")
+    const player = new Audio('musique/flipcard.wav');
+    player.play()
     if (dernierClick == "carte9"){
-        //happysong
+        const player = new Audio('musique/winmatch.wav');
+        player.play()
+        gagnepoint +=1
+        if (gagnepoint == 10){
+            confetti.start()
+            const player = new Audio('musique/finalwin.wav');
+            player.play()
+        }
     } else {
         retounerCarte(c1, "carte1", c20)
         retounerCarte(c2, "carte2", c20)
@@ -560,14 +784,27 @@ c20.addEventListener("click",function (event){
         retounerCarte(c19, "carte19", c20)
         retounerCarte(c20, "carte20", c20)        
     }
-    dernierClick="carte20"
+    if (dernierClick) {
+        dernierClick = ""
+    } else {
+        dernierClick="carte20"
+    }
 })
 
 //image10
 c12.addEventListener("click",function (event){
     c12.src=("carte/10.jpg")
+    const player = new Audio('musique/flipcard.wav');
+    player.play()
     if (dernierClick == "carte17"){
-        //happysong
+        const player = new Audio('musique/winmatch.wav');
+        player.play()
+        gagnepoint +=1
+        if (gagnepoint == 10){
+            confetti.start()
+            const player = new Audio('musique/finalwin.wav');
+            player.play()
+        }
     } else {
         retounerCarte(c1, "carte1", c12)
         retounerCarte(c2, "carte2", c12)
@@ -590,12 +827,25 @@ c12.addEventListener("click",function (event){
         retounerCarte(c19, "carte19", c12)
         retounerCarte(c20, "carte20", c12)        
     }
-    dernierClick="carte12"
+    if (dernierClick) {
+        dernierClick = ""
+    } else {
+        dernierClick="carte12"
+    }
 })
 c17.addEventListener("click",function (event){
     c17.src=("carte/10.jpg")
+    const player = new Audio('musique/flipcard.wav');
+    player.play()
     if (dernierClick == "carte12"){
-        //happysong
+        const player = new Audio('musique/winmatch.wav');
+        player.play()
+        gagnepoint +=1
+        if (gagnepoint == 10){
+            confetti.start()
+            const player = new Audio('musique/finalwin.wav');
+            player.play()
+        }
     } else {
         retounerCarte(c1, "carte1", c17)
         retounerCarte(c2, "carte2", c17)
@@ -618,7 +868,11 @@ c17.addEventListener("click",function (event){
         retounerCarte(c19, "carte19", c17)
         retounerCarte(c20, "carte20", c17)        
     }
-    dernierClick="carte17"
+    if (dernierClick) {
+        dernierClick = ""
+    } else {
+        dernierClick="carte17"
+    }
 })
 
 
@@ -632,14 +886,16 @@ function retounerCarte(carteDOM, carteNuméro, carteDOM2){
     console.log("dernier click:", dernierClick)
 
     if (carteDOM2 == carteDOM){
-        //fait rien
+        //fait rien car deux fois clq sur meme carte
     } else if (dernierClick == carteNuméro){
+        // on a echoué:
         console.log("on va retouner les 2 cartes", carteDOM, carteDOM2)
-
+        const player = new Audio('musique/flipcard.wav');
+        player.play()
         setTimeout(function() {
             carteDOM.src = "imageDosCarte/DosCarte.jpg"
             carteDOM2.src = "imageDosCarte/DosCarte.jpg"
-        }, 1700);
+        }, 1600);
     }  
 }
 
