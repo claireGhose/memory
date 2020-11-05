@@ -21,26 +21,41 @@ let gagnepoint= 0
 
 
 /*----- references des elements DOM -----*/
-const c1 = document.getElementById("c1")
-const c2 = document.getElementById("c2")
-const c3 = document.getElementById("c3")
-const c4 = document.getElementById("c4")
-const c5 = document.getElementById("c5")
-const c6 = document.getElementById("c6")
-const c7 = document.getElementById("c7")
-const c8 = document.getElementById("c8")
-const c9 = document.getElementById("c9")
-const c10 = document.getElementById("c10")
-const c11 = document.getElementById("c11")
-const c12 = document.getElementById("c12")
-const c13 = document.getElementById("c13")
-const c14 = document.getElementById("c14")
-const c15 = document.getElementById("c15")
-const c16 = document.getElementById("c16")
-const c17 = document.getElementById("c17")
-const c18 = document.getElementById("c18")
-const c19 = document.getElementById("c19")
-const c20 = document.getElementById("c20")
+let array = ["c1","c2","c3","c4","c5","c6","c7","c8","c9","c10",
+            "c11","c12","c13","c14","c15","c16","c17","c18","c19","c20"]
+let arrayShuffle = []
+while (array.length > 0) {
+    let numéro = Math.floor(Math.random() * array.length);
+    let élémentAuHasard = array[numéro]
+    arrayShuffle.push(élémentAuHasard) // mettre l'element dans le nouveau tableau
+    array.splice(numéro, 1);
+}
+console.log (array)
+console.log (arrayShuffle)
+
+const c1 = document.getElementById(arrayShuffle[0])
+const c2 = document.getElementById(arrayShuffle[1])
+const c3 = document.getElementById(arrayShuffle[2])
+const c4 = document.getElementById(arrayShuffle[3])
+const c5 = document.getElementById(arrayShuffle[4])
+const c6 = document.getElementById(arrayShuffle[5])
+const c7 = document.getElementById(arrayShuffle[6])
+const c8 = document.getElementById(arrayShuffle[7])
+const c9 = document.getElementById(arrayShuffle[8])
+const c10 = document.getElementById(arrayShuffle[9])
+const c11 = document.getElementById(arrayShuffle[10])
+const c12 = document.getElementById(arrayShuffle[11])
+const c13 = document.getElementById(arrayShuffle[12])
+const c14 = document.getElementById(arrayShuffle[13])
+const c15 = document.getElementById(arrayShuffle[14])
+const c16 = document.getElementById(arrayShuffle[15])
+const c17 = document.getElementById(arrayShuffle[16])
+const c18 = document.getElementById(arrayShuffle[17])
+const c19 = document.getElementById(arrayShuffle[18])
+const c20 = document.getElementById(arrayShuffle[19])
+
+console.log(c2)
+console.log(c9)
 
 
 /*----- event listeners -----*/
@@ -63,7 +78,7 @@ c1.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c1.src = "imageDosCarte/DosCarte.jpg"
-        }, 1000);
+        }, 900);
     } else {
         retounerCarte(c1, "carte1", c1)
         retounerCarte(c2, "carte2", c1)
@@ -109,7 +124,7 @@ c15.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c15.src = "imageDosCarte/DosCarte.jpg"
-        }, 1000);
+        }, 900);
     } else {
         retounerCarte(c1, "carte1", c15)
         retounerCarte(c2, "carte2", c15)
@@ -156,7 +171,7 @@ c2.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c2.src = "imageDosCarte/DosCarte.jpg"
-        }, 1000);
+        }, 900);
     } else {
         retounerCarte(c1, "carte1", c2)
         retounerCarte(c2, "carte2", c2)
@@ -202,7 +217,7 @@ c9.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c9.src = "imageDosCarte/DosCarte.jpg"
-        }, 1000);
+        }, 900);
     } else {
         retounerCarte(c1, "carte1", c9)
         retounerCarte(c2, "carte2", c9)
@@ -250,7 +265,7 @@ c3.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c3.src = "imageDosCarte/DosCarte.jpg"
-        }, 1000);
+        }, 900);
     } else {
         retounerCarte(c1, "carte1", c3)
         retounerCarte(c2, "carte2", c3)
@@ -298,7 +313,7 @@ c14.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c14.src = "imageDosCarte/DosCarte.jpg"
-        }, 1000);
+        }, 900);
     } else {
         retounerCarte(c1, "carte1", c14)
         retounerCarte(c2, "carte2", c14)
@@ -348,7 +363,7 @@ c4.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c4.src = "imageDosCarte/DosCarte.jpg"
-        }, 1000);
+        }, 900);
     } else {
         retounerCarte(c1, "carte1", c4)
         retounerCarte(c2, "carte2", c4)
@@ -396,7 +411,7 @@ c19.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c19.src = "imageDosCarte/DosCarte.jpg"
-        }, 1000);
+        }, 900);
     } else {
         retounerCarte(c1, "carte1", c19)
         retounerCarte(c2, "carte2", c19)
@@ -446,7 +461,7 @@ c5.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c5.src = "imageDosCarte/DosCarte.jpg"
-        }, 1000);
+        }, 900);
     } else {
         retounerCarte(c1, "carte1", c5)
         retounerCarte(c2, "carte2", c5)
@@ -494,7 +509,7 @@ c18.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c18.src = "imageDosCarte/DosCarte.jpg"
-        }, 1000);
+        }, 900);
     } else {
         retounerCarte(c1, "carte1", c18)
         retounerCarte(c2, "carte2", c18)
@@ -544,7 +559,7 @@ c6.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c6.src = "imageDosCarte/DosCarte.jpg"
-        }, 1000);
+        }, 900);
     } else {
         retounerCarte(c1, "carte1", c6)
         retounerCarte(c2, "carte2", c6)
@@ -592,7 +607,7 @@ c8.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c8.src = "imageDosCarte/DosCarte.jpg"
-        }, 1000);
+        }, 900);
     } else {
         retounerCarte(c1, "carte1", c8)
         retounerCarte(c2, "carte2", c8)
@@ -642,7 +657,7 @@ c7.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c7.src = "imageDosCarte/DosCarte.jpg"
-        }, 1000);
+        }, 900);
     } else {
         retounerCarte(c1, "carte1", c7)
         retounerCarte(c2, "carte2", c7)
@@ -690,7 +705,7 @@ c13.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c13.src = "imageDosCarte/DosCarte.jpg"
-        }, 1000);
+        }, 900);
     } else {
         retounerCarte(c1, "carte1", c13)
         retounerCarte(c2, "carte2", c13)
@@ -740,7 +755,7 @@ c10.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c10.src = "imageDosCarte/DosCarte.jpg"
-        }, 1000);
+        }, 900);
     } else {
         retounerCarte(c1, "carte1", c10)
         retounerCarte(c2, "carte2", c10)
@@ -788,7 +803,7 @@ c16.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c16.src = "imageDosCarte/DosCarte.jpg"
-        }, 1000);
+        }, 900);
     } else {
         retounerCarte(c1, "carte1", c16)
         retounerCarte(c2, "carte2", c16)
@@ -838,7 +853,7 @@ c11.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c11.src = "imageDosCarte/DosCarte.jpg"
-        }, 1000);
+        }, 900);
     } else {
         retounerCarte(c1, "carte1", c11)
         retounerCarte(c2, "carte2", c11)
@@ -864,14 +879,14 @@ c11.addEventListener("click",function (event){
     if (dernierClick) {
         dernierClick = ""
     } else {
-        dernierClick="carte9"
+        dernierClick="carte11"
     }
 })
 c20.addEventListener("click",function (event){
     c20.src=("carte/9.jpg")
     const player = new Audio('musique/flipcard.wav');
     player.play()
-    if (dernierClick == "carte9"){
+    if (dernierClick == "carte11"){
         const player = new Audio('musique/winmatch.wav');
         player.play()
         gagnepoint +=1
@@ -886,7 +901,7 @@ c20.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c20.src = "imageDosCarte/DosCarte.jpg"
-        }, 1000);
+        }, 900);
     } else {
         retounerCarte(c1, "carte1", c20)
         retounerCarte(c2, "carte2", c20)
@@ -936,7 +951,7 @@ c12.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c12.src = "imageDosCarte/DosCarte.jpg"
-        }, 1000);
+        }, 900);
     } else {
         retounerCarte(c1, "carte1", c12)
         retounerCarte(c2, "carte2", c12)
@@ -984,7 +999,7 @@ c17.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c17.src = "imageDosCarte/DosCarte.jpg"
-        }, 1000);
+        }, 900);
     } else {
         retounerCarte(c1, "carte1", c17)
         retounerCarte(c2, "carte2", c17)
