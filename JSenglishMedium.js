@@ -93,7 +93,7 @@ const c40 = document.getElementById(arrayShuffle[39])
 /*----- event listeners -----*/
 //image1
 c1.addEventListener("click",function (event){
-    c1.src="carte/1m.jpg"
+    c1.src="image en anglais/11.png"
     const player = new Audio('musique/flipcard.wav');
     player.play()
 
@@ -160,7 +160,7 @@ c1.addEventListener("click",function (event){
     }
 })
 c15.addEventListener("click",function (event){
-    c15.src="carte/1m.jpg"
+    c15.src="image en anglais/11.png"
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte1"){
@@ -227,7 +227,7 @@ c15.addEventListener("click",function (event){
 })
 //image2
 c2.addEventListener("click",function (event){
-    c2.src=("carte/2m.jpg")
+    c2.src=("image en anglais/12.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte9"){
@@ -293,7 +293,7 @@ c2.addEventListener("click",function (event){
     }
 })
 c9.addEventListener("click",function (event){
-    c9.src=("carte/2m.jpg")
+    c9.src=("image en anglais/12.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte2"){
@@ -361,7 +361,7 @@ c9.addEventListener("click",function (event){
 
 //image3
 c3.addEventListener("click",function (event){
-    c3.src=("carte/3m.jpg")
+    c3.src=("image en anglais/13.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte14"){
@@ -427,7 +427,7 @@ c3.addEventListener("click",function (event){
     }
 })
 c14.addEventListener("click",function (event){
-    c14.src=("carte/3m.jpg")
+    c14.src=("image en anglais/13.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte3"){
@@ -497,7 +497,7 @@ c14.addEventListener("click",function (event){
 
 //image4
 c4.addEventListener("click",function (event){
-    c4.src=("carte/4m.jpg")
+    c4.src=("image en anglais/14.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte19"){
@@ -565,7 +565,7 @@ c4.addEventListener("click",function (event){
     }
 })
 c19.addEventListener("click",function (event){
-    c19.src=("carte/4m.jpg")
+    c19.src=("image en anglais/14.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte4"){
@@ -635,7 +635,7 @@ c19.addEventListener("click",function (event){
 
 //image5
 c5.addEventListener("click",function (event){
-    c5.src=("carte/5m.jpg")
+    c5.src=("image en anglais/15.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte18"){
@@ -703,7 +703,7 @@ c5.addEventListener("click",function (event){
     }
 })
 c18.addEventListener("click",function (event){
-    c18.src=("carte/5m.jpg")
+    c18.src=("image en anglais/15.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte5"){
@@ -773,7 +773,7 @@ c18.addEventListener("click",function (event){
 
 //image6
 c6.addEventListener("click",function (event){
-    c6.src=("carte/6m.jpg")
+    c6.src=("image en anglais/16.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte8"){
@@ -841,7 +841,7 @@ c6.addEventListener("click",function (event){
     }
 })
 c8.addEventListener("click",function (event){
-    c8.src=("carte/6m.jpg")
+    c8.src=("image en anglais/16.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte6"){
@@ -911,7 +911,7 @@ c8.addEventListener("click",function (event){
 
 //image7
 c7.addEventListener("click",function (event){
-    c7.src=("carte/7m.jpg")
+    c7.src=("image en anglais/17.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte13"){
@@ -979,7 +979,7 @@ c7.addEventListener("click",function (event){
     }
 })
 c13.addEventListener("click",function (event){
-    c13.src=("carte/7m.jpg")
+    c13.src=("image en anglais/17.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte7"){
@@ -1049,7 +1049,7 @@ c13.addEventListener("click",function (event){
 
 //image8
 c10.addEventListener("click",function (event){
-    c10.src=("carte/8m.jpg")
+    c10.src=("image en anglais/18.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte16"){
@@ -1117,7 +1117,7 @@ c10.addEventListener("click",function (event){
     }
 })
 c16.addEventListener("click",function (event){
-    c16.src=("carte/8m.jpg")
+    c16.src=("image en anglais/18.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte10"){
@@ -1187,7 +1187,7 @@ c16.addEventListener("click",function (event){
 
 //image9
 c11.addEventListener("click",function (event){
-    c11.src=("carte/9m.jpg")
+    c11.src=("image en anglais/19.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte20"){
@@ -1255,7 +1255,7 @@ c11.addEventListener("click",function (event){
     }
 })
 c20.addEventListener("click",function (event){
-    c20.src=("carte/9m.jpg")
+    c20.src=("image en anglais/19.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte11"){
@@ -1325,7 +1325,7 @@ c20.addEventListener("click",function (event){
 
 //image10
 c12.addEventListener("click",function (event){
-    c12.src=("carte/10m.jpg")
+    c12.src=("image en anglais/20.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte17"){
@@ -1393,7 +1393,7 @@ c12.addEventListener("click",function (event){
     }
 })
 c17.addEventListener("click",function (event){
-    c17.src=("carte/10m.jpg")
+    c17.src=("image en anglais/20.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte12"){
@@ -1462,7 +1462,7 @@ c17.addEventListener("click",function (event){
 })
 //image11
 c21.addEventListener("click",function (event){
-    c21.src="carte/11.jpg"
+    c21.src="image en anglais/21.png"
     const player = new Audio('musique/flipcard.wav');
     player.play()
 
@@ -1529,7 +1529,7 @@ c21.addEventListener("click",function (event){
     }
 })
 c35.addEventListener("click",function (event){
-    c35.src="carte/11.jpg"
+    c35.src="image en anglais/21.png"
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte21"){
@@ -1596,7 +1596,7 @@ c35.addEventListener("click",function (event){
 })
 //image12
 c22.addEventListener("click",function (event){
-    c22.src=("carte/12.jpg")
+    c22.src=("image en anglais/22.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte29"){
@@ -1662,7 +1662,7 @@ c22.addEventListener("click",function (event){
     }
 })
 c29.addEventListener("click",function (event){
-    c29.src=("carte/12.jpg")
+    c29.src=("image en anglais/22.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte22"){
@@ -1730,7 +1730,7 @@ c29.addEventListener("click",function (event){
 
 //image13
 c23.addEventListener("click",function (event){
-    c23.src=("carte/13.jpg")
+    c23.src=("image en anglais/23.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte34"){
@@ -1796,7 +1796,7 @@ c23.addEventListener("click",function (event){
     }
 })
 c34.addEventListener("click",function (event){
-    c34.src=("carte/13.jpg")
+    c34.src=("image en anglais/23.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte23"){
@@ -1866,7 +1866,7 @@ c34.addEventListener("click",function (event){
 
 //image14
 c24.addEventListener("click",function (event){
-    c24.src=("carte/14.jpg")
+    c24.src=("image en anglais/24.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte39"){
@@ -1934,7 +1934,7 @@ c24.addEventListener("click",function (event){
     }
 })
 c39.addEventListener("click",function (event){
-    c39.src=("carte/14.jpg")
+    c39.src=("image en anglais/24.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte24"){
@@ -2004,7 +2004,7 @@ c39.addEventListener("click",function (event){
 
 //image15
 c25.addEventListener("click",function (event){
-    c25.src=("carte/15.jpg")
+    c25.src=("image en anglais/25.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte38"){
@@ -2072,7 +2072,7 @@ c25.addEventListener("click",function (event){
     }
 })
 c38.addEventListener("click",function (event){
-    c38.src=("carte/15.jpg")
+    c38.src=("image en anglais/25.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte25"){
@@ -2142,7 +2142,7 @@ c38.addEventListener("click",function (event){
 
 //image16
 c26.addEventListener("click",function (event){
-    c26.src=("carte/16.jpg")
+    c26.src=("image en anglais/26.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte28"){
@@ -2210,7 +2210,7 @@ c26.addEventListener("click",function (event){
     }
 })
 c28.addEventListener("click",function (event){
-    c28.src=("carte/16.jpg")
+    c28.src=("image en anglais/26.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte26"){
@@ -2280,7 +2280,7 @@ c28.addEventListener("click",function (event){
 
 //image17
 c27.addEventListener("click",function (event){
-    c27.src=("carte/17.jpg")
+    c27.src=("image en anglais/27.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte33"){
@@ -2348,7 +2348,7 @@ c27.addEventListener("click",function (event){
     }
 })
 c33.addEventListener("click",function (event){
-    c33.src=("carte/17.jpg")
+    c33.src=("image en anglais/27.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte27"){
@@ -2418,7 +2418,7 @@ c33.addEventListener("click",function (event){
 
 //image18
 c30.addEventListener("click",function (event){
-    c30.src=("carte/18.jpg")
+    c30.src=("image en anglais/28.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte36"){
@@ -2486,7 +2486,7 @@ c30.addEventListener("click",function (event){
     }
 })
 c36.addEventListener("click",function (event){
-    c36.src=("carte/18.jpg")
+    c36.src=("image en anglais/28.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte30"){
@@ -2556,7 +2556,7 @@ c36.addEventListener("click",function (event){
 
 //image19
 c31.addEventListener("click",function (event){
-    c31.src=("carte/19.jpg")
+    c31.src=("image en anglais/29.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte40"){
@@ -2624,7 +2624,7 @@ c31.addEventListener("click",function (event){
     }
 })
 c40.addEventListener("click",function (event){
-    c40.src=("carte/19.jpg")
+    c40.src=("image en anglais/29.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte31"){
@@ -2694,7 +2694,7 @@ c40.addEventListener("click",function (event){
 
 //image20
 c32.addEventListener("click",function (event){
-    c32.src=("carte/20.jpg")
+    c32.src=("image en anglais/30.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte37"){
@@ -2762,7 +2762,7 @@ c32.addEventListener("click",function (event){
     }
 })
 c37.addEventListener("click",function (event){
-    c37.src=("carte/20.jpg")
+    c37.src=("image en anglais/30.png")
     const player = new Audio('musique/flipcard.wav');
     player.play()
     if (dernierClick == "carte32"){
