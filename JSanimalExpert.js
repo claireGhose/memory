@@ -116,7 +116,7 @@ c1.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c1.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c1)
         retounerCarte(c2, "carte2", c1)
@@ -208,7 +208,7 @@ c15.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c15.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c15)
         retounerCarte(c2, "carte2", c15)
@@ -301,7 +301,7 @@ c2.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c2.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c2)
         retounerCarte(c2, "carte2", c2)
@@ -393,7 +393,7 @@ c9.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c9.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c9)
         retounerCarte(c2, "carte2", c9)
@@ -487,7 +487,7 @@ c3.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c3.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c3)
         retounerCarte(c2, "carte2", c3)
@@ -579,7 +579,7 @@ c14.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c14.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c14)
         retounerCarte(c2, "carte2", c14)
@@ -673,7 +673,7 @@ c4.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c4.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c4)
         retounerCarte(c2, "carte2", c4)
@@ -765,7 +765,7 @@ c19.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c19.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c19)
         retounerCarte(c2, "carte2", c19)
@@ -859,7 +859,7 @@ c5.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c5.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c5)
         retounerCarte(c2, "carte2", c5)
@@ -951,7 +951,7 @@ c18.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c18.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c18)
         retounerCarte(c2, "carte2", c18)
@@ -1045,7 +1045,7 @@ c6.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c6.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c6)
         retounerCarte(c2, "carte2", c6)
@@ -1137,7 +1137,7 @@ c8.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c8.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c8)
         retounerCarte(c2, "carte2", c8)
@@ -1231,7 +1231,7 @@ c7.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c7.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c7)
         retounerCarte(c2, "carte2", c7)
@@ -1323,7 +1323,7 @@ c13.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c13.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c13)
         retounerCarte(c2, "carte2", c13)
@@ -1417,7 +1417,7 @@ c10.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c10.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c10)
         retounerCarte(c2, "carte2", c10)
@@ -1509,7 +1509,7 @@ c16.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c16.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c16)
         retounerCarte(c2, "carte2", c16)
@@ -1603,7 +1603,7 @@ c11.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c11.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c11)
         retounerCarte(c2, "carte2", c11)
@@ -1695,7 +1695,7 @@ c20.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c20.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c20)
         retounerCarte(c2, "carte2", c20)
@@ -1789,7 +1789,7 @@ c12.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c12.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c12)
         retounerCarte(c2, "carte2", c12)
@@ -1882,7 +1882,7 @@ c17.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c17.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c17)
         retounerCarte(c2, "carte2", c17)
@@ -1974,7 +1974,7 @@ c21.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c21.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c21)
         retounerCarte(c2, "carte2", c21)
@@ -2064,7 +2064,7 @@ c35.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c35.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c35)
         retounerCarte(c2, "carte2", c35)
@@ -2155,7 +2155,7 @@ c22.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c22.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c22)
         retounerCarte(c2, "carte2", c22)
@@ -2245,7 +2245,7 @@ c29.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c29.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c29)
         retounerCarte(c2, "carte2", c29)
@@ -2337,7 +2337,7 @@ c23.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c23.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c23)
         retounerCarte(c2, "carte2", c23)
@@ -2429,7 +2429,7 @@ c34.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c34.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c34)
         retounerCarte(c2, "carte2", c34)
@@ -2523,7 +2523,7 @@ c24.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c24.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c24)
         retounerCarte(c2, "carte2", c24)
@@ -2615,7 +2615,7 @@ c39.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c39.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c39)
         retounerCarte(c2, "carte2", c39)
@@ -2709,7 +2709,7 @@ c25.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c25.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c25)
         retounerCarte(c2, "carte2", c25)
@@ -2801,7 +2801,7 @@ c38.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c38.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c38)
         retounerCarte(c2, "carte2", c38)
@@ -2895,7 +2895,7 @@ c26.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c26.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c26)
         retounerCarte(c2, "carte2", c26)
@@ -2987,7 +2987,7 @@ c28.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c28.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c28)
         retounerCarte(c2, "carte2", c28)
@@ -3081,7 +3081,7 @@ c27.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c27.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c27)
         retounerCarte(c2, "carte2", c27)
@@ -3173,7 +3173,7 @@ c33.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c33.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c33)
         retounerCarte(c2, "carte2", c33)
@@ -3267,7 +3267,7 @@ c30.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c30.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c30)
         retounerCarte(c2, "carte2", c30)
@@ -3359,7 +3359,7 @@ c36.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c36.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c36)
         retounerCarte(c2, "carte2", c36)
@@ -3453,7 +3453,7 @@ c31.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c31.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c31)
         retounerCarte(c2, "carte2", c31)
@@ -3545,7 +3545,7 @@ c40.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c40.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c40)
         retounerCarte(c2, "carte2", c40)
@@ -3639,7 +3639,7 @@ c32.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c32.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c32)
         retounerCarte(c2, "carte2", c32)
@@ -3731,7 +3731,7 @@ c37.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c37.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c37)
         retounerCarte(c2, "carte2", c37)
@@ -3825,7 +3825,7 @@ c41.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c41.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c41)
         retounerCarte(c2, "carte2", c41)
@@ -3917,7 +3917,7 @@ c42.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c42.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c42)
         retounerCarte(c2, "carte2", c42)
@@ -4011,7 +4011,7 @@ c43.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c43.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c43)
         retounerCarte(c2, "carte2", c43)
@@ -4103,7 +4103,7 @@ c44.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c44.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c44)
         retounerCarte(c2, "carte2", c44)
@@ -4197,7 +4197,7 @@ c45.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c45.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c45)
         retounerCarte(c2, "carte2", c45)
@@ -4289,7 +4289,7 @@ c46.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c46.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c46)
         retounerCarte(c2, "carte2", c46)
@@ -4383,7 +4383,7 @@ c47.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c47.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c47)
         retounerCarte(c2, "carte2", c47)
@@ -4475,7 +4475,7 @@ c48.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c48.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c48)
         retounerCarte(c2, "carte2", c48)
@@ -4569,7 +4569,7 @@ c49.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c49.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c49)
         retounerCarte(c2, "carte2", c49)
@@ -4661,7 +4661,7 @@ c50.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c50.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c50)
         retounerCarte(c2, "carte2", c50)
@@ -4755,7 +4755,7 @@ c51.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c51.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c51)
         retounerCarte(c2, "carte2", c51)
@@ -4847,7 +4847,7 @@ c52.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c52.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c52)
         retounerCarte(c2, "carte2", c52)
@@ -4941,7 +4941,7 @@ c53.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c53.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c53)
         retounerCarte(c2, "carte2", c53)
@@ -5033,7 +5033,7 @@ c54.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c54.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c54)
         retounerCarte(c2, "carte2", c54)
@@ -5127,7 +5127,7 @@ c55.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c55.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c55)
         retounerCarte(c2, "carte2", c55)
@@ -5219,7 +5219,7 @@ c56.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c56.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c56)
         retounerCarte(c2, "carte2", c56)
@@ -5313,7 +5313,7 @@ c57.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c57.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c57)
         retounerCarte(c2, "carte2", c57)
@@ -5405,7 +5405,7 @@ c58.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c58.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c58)
         retounerCarte(c2, "carte2", c58)
@@ -5499,7 +5499,7 @@ c59.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c59.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c59)
         retounerCarte(c2, "carte2", c59)
@@ -5591,7 +5591,7 @@ c60.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c60.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c60)
         retounerCarte(c2, "carte2", c60)
@@ -5685,7 +5685,7 @@ c61.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c61.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c61)
         retounerCarte(c2, "carte2", c61)
@@ -5777,7 +5777,7 @@ c62.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c62.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c62)
         retounerCarte(c2, "carte2", c62)
@@ -5871,7 +5871,7 @@ c63.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c63.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c63)
         retounerCarte(c2, "carte2", c63)
@@ -5963,7 +5963,7 @@ c64.addEventListener("click",function (event){
         player.play()
         setTimeout(function() {
             c64.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     } else {
         retounerCarte(c1, "carte1", c64)
         retounerCarte(c2, "carte2", c64)
@@ -6052,7 +6052,7 @@ function retounerCarte(carteDOM, carteNuméro, carteDOM2){
         setTimeout(function() {
             carteDOM.src = "imageDosCarte/DosCarte.jpg"
             carteDOM2.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     }  
 }
 
