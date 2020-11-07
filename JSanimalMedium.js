@@ -103,6 +103,8 @@ c1.addEventListener("click",function (event){
         gagnepoint +=1
         if (gagnepoint == 20){
             confetti.start()
+            const player = new Audio('musique/finalwin.wav');
+            player.play()
         }
     } else if (dernierClick== "carte1"){
         
@@ -169,6 +171,8 @@ c15.addEventListener("click",function (event){
         gagnepoint +=1
         if (gagnepoint == 20){
             confetti.start()
+            const player = new Audio('musique/finalwin.wav');
+            player.play()
         }
     } else if (dernierClick== "carte15"){
         
@@ -236,6 +240,8 @@ c2.addEventListener("click",function (event){
         gagnepoint +=1
         if (gagnepoint == 20){
             confetti.start()
+            const player = new Audio('musique/finalwin.wav');
+            player.play()
         }
     } else if (dernierClick== "carte2"){
         
@@ -302,6 +308,8 @@ c9.addEventListener("click",function (event){
         gagnepoint +=1
         if (gagnepoint == 20){
             confetti.start()
+            const player = new Audio('musique/finalwin.wav');
+            player.play()
         }
     } else if (dernierClick== "carte9"){
         
@@ -370,6 +378,8 @@ c3.addEventListener("click",function (event){
         gagnepoint +=1
         if (gagnepoint == 20){
             confetti.start()
+            const player = new Audio('musique/finalwin.wav');
+            player.play()
         }
     } else if (dernierClick== "carte3"){
         
