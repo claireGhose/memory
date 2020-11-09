@@ -6052,7 +6052,7 @@ function retounerCarte(carteDOM, carteNuméro, carteDOM2){
         setTimeout(function() {
             carteDOM.src = "imageDosCarte/DosCarte.jpg"
             carteDOM2.src = "imageDosCarte/DosCarte.jpg"
-        }, 500);
+        }, 1500);
     }  
 }
 
